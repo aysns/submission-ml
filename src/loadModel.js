@@ -1,5 +1,6 @@
 const tf = require('@tensorflow/tfjs-node');
- 
+require('dotenv').config();
+
 async function loadModel() {
     try {
         return await tf.loadGraphModel(process.env.MODEL_URL);
