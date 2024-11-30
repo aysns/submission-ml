@@ -20,4 +20,4 @@ ENV port=8080
 EXPOSE 8080
 
 # Run the command to start the server in production mode
-CMD ["node", "src/server/app.js"]
+CMD ["node", "src/server/server.js"]
